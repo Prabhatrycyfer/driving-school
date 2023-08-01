@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner */
+
+.txt-h1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 52px !important;
+    width: 100%;
+}
+
+.txt-h3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.txt-p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8B8B8B;
+}
+
+
+.course-banner {
+    background-image: url(../images/banner/course-bnr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.abt-txt-bnr {
+    max-width: 735px;
+    color: #fff;
+    width: 100%;
+}
+
+.abt-txt-bnr p {
+    color: #F2F2F2;
+    padding: 10px 0;
+}
+
+.course-banner .abt-text1 {
+    padding: 0 80px;
+}
+
+/* cards */
+
+.course-p h3 {
+    font-weight: 700 !important;
+}
+
+.course-p .card {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 8px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    padding: 10px;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.course-p .card-title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+    min-height: 125px;
+}
+
+.course-p .card-body {
+    padding: 15px 6px;
+}
+
+.course-p .card-body ul {
+    padding: 0;
+}
+
+.course-p .card-body ul li {
+    list-style: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8B8B8B;
+}
+
+
+/* newsletter */
+
+.newsletter {
+    background-color: #FBFBFB;
+    min-height: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-text {
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.news-text p {
+    padding: 7px 0;
+}
+
+.news-text h3 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 39px;
+    color: #000000;
+}
+
+
+.news-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.news-btn button {
+    margin-top: unset;
+    padding: 10px 0;
+    margin-left: 3px;
+}
+
+.news-btn input[type="email"] {
+    padding: 10px;
+    width: 310px;
+    color: #808080;
+    border: none;
+}
+
+.news-btn input[type="email"]:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+
+.news-btn button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* driving */
+.dl-lsn {
+    background: #F6F6F6;
+}
+
+.driving-text p {
+    padding: 24px 0;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.driving-text p span {
+    padding: 24px 0;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.driving-img {
+    position: relative;
+    padding: 10px;
+}
+
+.driving-text.abt-text1 .txt-h3 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.driving-img img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+}
+
+.driving-img:after {
+    content: '';
+    width: 60%;
+    background: #DA241C;
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.dl-lsn button {
+    padding: 11px;
+    border-bottom-right-radius: 20px;
+    max-width: 130px;
+    background-color: #DA241C;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}

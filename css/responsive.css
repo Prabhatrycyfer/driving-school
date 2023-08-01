@@ -1,0 +1,793 @@
+@media (max-width: 1399.98px) {
+
+    header .nav-rgt {
+        margin-left: 20px;
+    }
+
+    .pck-inf .info {
+        margin-bottom: 40px;
+    }
+
+    .fox-text p {
+        color: #7A7A7A;
+        border-top: 2px #000 solid;
+        padding: 15px 0px;
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 24px;
+    }
+
+    .explore-img .epl-img:after {
+        content: '';
+        width: 100%;
+        background: #DA241C;
+        left: 10px;
+        position: absolute;
+        z-index: 0;
+        top: 18px;
+        border-radius: 23px;
+        /* height: 79%; */
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    header .navbar-nav li {
+        padding: 3px;
+    }
+
+    .nav-rgt ul li {
+        padding-left: 15px;
+    }
+
+    header .navbar-nav li {
+        padding: 0px;
+    }
+
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    header .nav-rgt {
+        margin-left: 0px;
+    }
+
+    header .p-con span:nth-child(2) {
+        width: 125px;
+        font-size: 14px;
+    }
+
+    .banner .sh-txt-bnr {
+        top: 30%;
+        left: 10%;
+    }
+
+    .pck-inf .card {
+        padding: 15px 25px;
+    }
+
+    .fox-text h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .inr-fox .overlay {
+        padding: 0 12px;
+    }
+
+    .fox-text p {
+        font-size: 14px;
+        margin-top: 0 !important;
+        line-height: 20px;
+        padding: 9px 0;
+    }
+
+    .inr-fox .overlay {
+        bottom: 30px;
+    }
+
+    .fox-text h4 img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+    
+    .sh-txt-bnr h1 {
+        line-height: 44px;
+        font-size: 40px;
+            font-weight: 700;
+    
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #f2f2f2;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+    .footer .busi-inq span {
+        text-align: start;
+        font-size: 15px;
+        color: #F2F2F2 !important;
+        line-height: 31px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main-log {
+        min-width: 300px;
+        margin: auto;
+    }
+
+    .rvw-txt .card-text {
+        min-height: 264px;
+    }
+
+    .explore-text .text1 button {
+        margin-top: unset !important;
+    }
+
+    .course-p .row {
+        margin-left: 0;
+    }
+
+    header .navbar-expand-lg .navbar-nav {
+        align-items: unset;
+        padding: 10px;
+        gap: 5px 0px;
+    }
+
+    .focus-box {
+        padding: 0px;
+    }
+
+    .fox-text h4 img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+
+    .inr-fox .overlay {
+        padding: 10px;
+    }
+
+    .fox-text h4 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .inr-fox .overlay {
+        height: 65px;
+    }
+
+    .fox-text p {
+        font-size: 9px;
+        margin-top: 13px;
+        line-height: 15px;
+    }
+
+    header .nav-rgt {
+        width: 170px;
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: start;
+        gap: 5px 0px;
+    }
+
+    header .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .banner .sh-txt-bnr {
+        width: 90%;
+        top: 230px;
+        left: 10%;
+    }
+
+    .pck-inf .row {
+        gap: 50px 0px;
+    }
+
+    .pck-inf .card {
+        padding: 40px 25px;
+        /*min-height: unset;*/
+    }
+
+    .pck-inf .trk-img {
+        display: block;
+    }
+
+    .rvw .row {
+        gap: 50px 0px;
+    }
+
+    .rvw .rvw-lft {
+        margin: 0 15px;
+    }
+
+    footer li.tlk-input {
+        margin: 0 10px;
+    }
+
+    .info-banner {
+        min-height: 400px !important;
+    }
+
+    .policy-box h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .padding-70 {
+        padding: 40px 0px;
+    }
+
+    .faq-sec button.accordion-button {
+        font-size: 18px;
+    }
+
+    .faq-sec .accordion-body p {
+        font-size: 16px;
+    }
+
+    .padding-90 {
+        padding: 50px 0px;
+    }
+
+    .footer .busi-inq span {
+        text-align: start;
+        font-size: 16px;
+        color: #f2f2f2 !important;
+        line-height: 28px;
+    }
+
+    .footer .lt-tlk {
+        padding: 10px 0;
+    }
+
+    .footer .lt-tlk h3 {
+        font-size: 22px;
+    }
+
+    .footer .busi-inq a img {
+        width: 35px;
+        height: 35px;
+        margin-right: 7px;
+    }
+
+    .txt-h1 {
+        font-size: 34px !important;
+        line-height: 44px !important;
+    }
+
+    .policy-box {
+        margin-top: 25px;
+    }
+
+    .detail-banner {
+        min-height: 400px !important;
+    }
+
+    .cource-cnt p {
+        font-size: 16px;
+    }
+
+    .cource-cnt {
+        padding-right: 0px;
+    }
+
+    section.course-sec .col-md-8 {
+        width: 100%;
+    }
+
+    section.course-sec .col-md-4 {
+        width: 100%;
+    }
+
+    section.course-sec .pck-inf {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    section.course-sec .pck-inf {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #f2f2f2;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 769.98px) {
+
+    .top-bar .row {
+        gap: 5px 0px;
+    }
+
+
+    .top-bar .trng-tmng {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer form input {
+        width: 85%;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .top-bar .trng-links {
+        float: unset;
+    }
+
+    .footer .busi-inq span {
+        text-align: start;
+        font-size: 13px;
+        color: #f2f2f2 !important;
+        line-height: 31px;
+    }
+
+    .banner .sh-txt-bnr p {
+        font-size: 14px !important;
+        /* padding-right: 317px; */
+        width: 70%;
+        line-height: 25px !important;
+    }
+
+    .banner .sh-txt-bnr h2 {
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+    
+    .banner .sh-txt-bnr h1 {
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+    .pck-inf .row {
+        gap: 50px 0px;
+    }
+
+    .pck-inf .trk-img img {
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+        display: none;
+    }
+
+    .footer form button {
+        right: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .banner .sh-txt-bnr h2 {
+        line-height: 24px;
+    }
+    
+    .banner .sh-txt-bnr h1 {
+        line-height: 24px;
+    }
+
+    .explore-sec h2 {
+        font-size: 30px !important;
+    }
+
+
+    .detail-banner {
+        min-height: 350px !important;
+    }
+
+    .cource-cnt button {
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .head {
+        font-size: 34px !important;
+    }
+
+
+    .footer form button {
+        right: 18px;
+    }
+
+    .focus-box {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .info-banner {
+        min-height: 350px !important;
+    }
+
+    .faq-sec button.accordion-button {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h2,
+    .info h3.text-center {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .banner .sh-txt-bnr button {
+        border: none;
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .banner .sh-txt-bnr p {
+        font-size: 10px !important;
+        /* padding-right: 317px; */
+        width: 70%;
+        line-height: 15px !important;
+    }
+
+    .banner .sh-txt-bnr h2 {
+        font-size: 14px !important;
+    }
+    
+    .banner .sh-txt-bnr h1 {
+        font-size: 14px !important;
+    }
+
+    .banner .sh-txt-bnr {
+        top: 40px;
+        left: 12%;
+    }
+
+    .banner .inn-txt img {
+        min-height: 230px;
+    }
+
+    .nws-ltr .row {
+        gap: 25px 0px;
+    }
+
+    .rvw {
+        background: #000;
+    }
+
+    .footer h3 {
+        padding-top: 24px !important;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+
+    .top-bar .trng-links {
+        float: left;
+    }
+
+    .top-bar .trng-tmng p {
+        display: flex;
+        margin: 0 0px;
+        /* line-height: 22px; */
+        color: #C3BEBC;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .trng-links a {
+        margin: 0 3px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .banner .inn-txt img {
+        min-height: 200px;
+    }
+
+    .banner .sh-txt-bnr {
+        top: 25px;
+        left: 12%;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+/* @media (max-width:1024px) {
+    .footer form button {
+        right: 5px;
+    }
+}
+
+@media (max-width:1440px) {
+    .footer form button {
+        right: 37px;
+    }
+} */
+/* media query */
+
+
+
+@media (min-width: 768px) and (max-width: px) {}
+
+@media (max-width: 1199.98px) {
+    .help .card {
+        padding: 7px !important;
+    }
+
+    .help .driving-icon {
+        width: 84px !important;
+        height: 84px !important;
+    }
+
+    .about-sec .icn-img {
+        top: 106%;
+        left: 0;
+        width: 100%;
+        height: 43px;
+    }
+
+    .about-sec .abt-text1 {
+        padding: 0 10px;
+    }
+
+    .abt-text1 button {
+        margin-top: unset;
+    }
+
+
+    .about-sec .abt-text1 p {
+        margin: 0;
+    }
+
+    .inr-card {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .news-text h3 {
+        font-size: 29px !important;
+    }
+
+    .about-sec .icn-img {
+        top: 104%;
+        left: 0%;
+        width: 208px;
+        height: 40px;
+    }
+
+    .confidence .course {
+        margin-bottom: 25px;
+    }
+
+    .about-sec .icn-img span {
+        font-size: 14px;
+    }
+
+    .about-sec .abt-text1 button {
+        margin-top: unset;
+    }
+
+    .about-sec .abt-text1 {
+        padding: 0;
+    }
+
+    .team .card-body {
+        padding: 10px;
+    }
+
+    .counter-sec .count-up {
+        padding: 9px;
+    }
+
+    .counter-sec .count-up strong {
+        font-size: 16px;
+    }
+
+    .counter-sec .count-up p {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    .about-sec .abt-text1 {
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    .about-sec .icn-img {
+        top: 85%;
+        left: 40%;
+    }
+
+    .team .card {
+        margin: unset;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        padding: 15px !important;
+    }
+
+    .counter-sec .row {
+        gap: 20px 0px;
+    }
+
+    .abt-banner {
+        padding: 20px;
+    }
+
+
+}
+
+
+/* Course-page media query */
+
+@media (max-width: 1199.98px) {
+    .driving-img {
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dl-lsn .row {
+        flex-direction: row-reverse;
+    }
+
+    .driving-img:after {
+        /* top: 107px;
+        height: 57%; */
+        display: none;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .course-banner .abt-txt-bnr {
+        max-width: 700px;
+    }
+
+    .course-banner .abt-text1 {
+        padding: 0 40px;
+    }
+
+    .news-text h3 {
+        font-size: 29px !important;
+    }
+
+    .dl-lsn .row {
+        padding: 0px !important;
+        flex-direction: column;
+    }
+
+    .driving-text.abt-text1 {
+        padding: 25px 0;
+    }
+
+    .driving-img:after {
+        top: 0;
+        height: 100%;
+        display: unset;
+    }
+
+    .inr-card {
+        padding: 20px 15px;
+    }
+
+    .contact-form form .feild {
+        padding: 10px 3px;
+        text-transform: capitalize;
+    }
+
+    section.map-sec iframe {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .info {
+        margin-bottom: 30px;
+        font-family: 'Noto Sans';
+    }
+
+    .cont-bnr {
+        min-height: 400px !important;
+    }
+
+    .explore-text .text1 button {
+        margin-top: 0 !important;
+    }
+
+    .explore-sec h2 {
+        font-size: 36px !important;
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    .course-banner .abt-text1 {
+        padding: 0 25px;
+    }
+
+
+    .dl-lsn {
+        padding: 10px !important;
+    }
+
+    .dl-lsn .row {
+        padding: 0px !important;
+    }
+
+    .driving-text.abt-text1 {
+        padding: 25px 0;
+    }
+
+    .driving-img:after {
+        top: 0;
+        height: 100%;
+        display: unset;
+    }
+
+    .cont-bnr {
+        min-height: 350px !important;
+    }
+
+    .inr-card {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .padding-90 {
+        padding: 40px 0px;
+    }
+
+    .contact-form h3 {
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .contact-form form .feild {
+        padding: 10px 0px;
+        text-transform: capitalize;
+    }
+
+    .contact-form form textarea {
+        min-height: 200px;
+    }
+
+    section.map-sec iframe {
+        width: 100%;
+        min-height: 350px;
+    }
+
+
+
+}

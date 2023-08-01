@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+    width: 100%;
+} */
+.margin-90 {
+    margin: 90px 0;
+}
+
+.min-100 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.explore-sec h2 {
+    max-width: 600px;
+    font-size: 40px !important;
+    font-weight: 700 !important;
+}
+
+.explore-text .image1:after {
+    content: '';
+    width: 100%;
+    background: #DA241C;
+    left: -17px;
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    border-radius: 20px;
+    height: 100%;
+
+}
+
+.explore-text .image1 img {
+    width: 100%;
+    height: 100%;
+    max-height: 522px;
+    border-radius: 20px;
+    max-width: 360px;
+    position: relative;
+    z-index: 1;
+}
+
+.explore-text .text1 strong {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+
+}
+
+.explore-text .arws {
+    align-items: center;
+}
+
+.explore-text .arws span {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+    margin-right: 8px;
+}
+
+.explore-text .arws i {
+    font-size: 25px;
+    COLOR: #DA241C;
+}
+
+.text1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2;
+    color: #8B8B8B;
+
+}
+
+.explore-text .text1 {
+    padding: 0 25px;
+}
+
+.explore-text .text1 button {
+    min-width: 150px;
+    margin-top: 40px !important;
+}
+
+.explore-text .text1 button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.explore-img .epl-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+    max-width: 360px;
+    position: relative;
+    z-index: 1;
+}
+
+.explore-img .epl-img:after {
+    content: '';
+    width: 87%;
+    background: #DA241C;
+    left: 10px;
+    position: absolute;
+    z-index: 0;
+    top: 18px;
+    border-radius: 23px;
+    height: 79%;
+}
+
+.explore-img p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 554;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.icns {
+    margin-top: 30px;
+}
+
+.explore-img .icns i {
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgb(147 147 147 / 25%);
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.explore-img .icns i:hover {
+    background: #000000;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.explore-img .icns a {
+    text-decoration: none;
+    color: #75767B;
+}
+
+.image1 {
+    position: relative;
+    height: 100%;
+}
+
+.scnd-img img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 360px;
+}
+
+.scnd-img {
+    position: absolute;
+    z-index: -999;
+    top: 11px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.explore-img {
+    position: relative;
+}
+
+.prcl {
+    top: 10px;
+    right: 0;
+    left: 10px;
+    height: 100%;
+}
+
+.prcl img {
+    height: unset !important;
+}
+
+/* confidence */
+
+.confidence h2 {
+    max-width: none;
+}
+
+
+.confidence .big-image,
+.confidence .big-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.confidence .course {
+    padding: 10px;
+    box-shadow: 0px 8px 41px rgb(0 0 0 / 7%);
+    border-radius: 24px;
+}
+
+.confidence .text strong {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #8B8B8B;
+    text-transform: uppercase;
+}
+
+.confidence .text {
+    padding: 20px 0;
+}
+
+.confidence .text h3 {
+    /* font-family: 'Noto Sans'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+
+.confidence .text p {
+    /* font-family: 'Noto Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #8B8B8B;
+    margin: 0;
+}
+
+.th-img img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.th-txt span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text .snd-thry {
+    margin-left: 10px !important;
+}
+
+.route {
+    width: 100%;
+    padding: 11px 0px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom-right-radius: 26px;
+}
+
+.route a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+}
+
+.confidence .thry {
+    margin: 15px 0px;
+}
+
+/* slider */
+
+.slider-sec {
+    /* min-height: 100vh; */
+    background-image: url(../images/confidence/img7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-sec .info h3 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans';
+    color: #fff;
+}
+
+.testimonial {
+    text-align: start;
+    padding: 10px 0;
+    min-height: 220px;
+}
+
+.testimonial-content {
+    background: #fff;
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 12px;
+    min-height: 500px
+}
+
+.testimonial .description {
+    font-size: 15px;
+    color: #8B8B8B;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    min-height: 110px;
+}
+
+.testimonial-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .testimonial-content {
+    position: relative;
+}
+
+.testimonial .testimonial-content:before {
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #2660a4;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+}
+
+.testimonial .testimonial-content:after {
+    content: "";
+    width: 2px;
+    height: 40px;
+    background: #2660a4;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: skewX(-45deg);
+    transform-origin: 100% 100% 0;
+}
+
+.testimonial-content .pic {
+    position: relative;
+}
+
+.testimonial-content .driving-icn {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #da241c;
+}
+
+.driving-icn img {
+    width: 25px !important;
+    height: 25px;
+}
+
+.driving-icn i {
+    font-size: 25px;
+    color: #f2f2f2;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 45px !important;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 15px;
+    height: 10px;
+    border-radius: 0;
+    background: #fff;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    width: 30px;
+    height: 8px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #fff !important;
+}
+
+.testimonial-content button a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.testimonial-content button {
+    padding: 8px 0;
+    border-bottom-right-radius: 20px;
+    min-width: 115px;
+    border: none;
+    margin: 10px 0;
+}
+
+img.training-img {
+    width: 25px !important;
+    height: 25px;
+}
+
+.owl-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer css */
+.foot-logo img {
+    height: 150px;
+    margin: 12px 0;
+}
+
+.adr a i {
+    padding-right: 5px;
+}
+
+/* footer ends */
+.hr-atb li {
+    padding: 16px 0;
+    list-style-type: square;
+}
+
+.hr-tab-btn {
+    background: #DA241C;
+    color: #fff;
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 20px 0px 20px 0px;
+    margin: 0 20px;
+}
+
+.rvw-txt .card-text {
+    min-height: 216px;
+}

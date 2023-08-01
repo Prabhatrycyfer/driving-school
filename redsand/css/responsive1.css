@@ -1,0 +1,356 @@
+/* media query */
+
+/* @media (min-width: 1399.98px) {
+    .explore-text .image1 img {
+        max-height: 522px !important;
+    }
+
+    .explore-text .image1:after {
+        content: '';
+        width: 100%;
+        background: #DA241C;
+        left: -17px;
+        position: absolute;
+        z-index: 0;
+        top: 17px;
+        border-radius: 20px;
+        height: 100%;
+    }
+
+    .footer .busi-inq .nv-im {
+        padding: 10px 50px;
+    }
+
+    .soc-icns a {
+        padding: 0 !important;
+    }
+} */
+
+@media (max-width: 1399.98px) {
+    .card1-img {
+        width: 100%;
+    }
+
+    .footer .busi-inq .nv-im {
+        /* justify-content: center; */
+        /* width: 100%; */
+        padding: 10px 50px;
+    }
+
+    .footer .soc-icns a {
+        margin: 15px;
+        padding: 0 !important;
+    }
+
+    .card-row {
+        flex-direction: column;
+    }
+
+    .footer .busi-inq .nv-im {
+        /* justify-content: center; */
+        /* width: 100%; */
+        padding: 10px 50px;
+    }
+
+    .soc-icns {
+        border-top: 1px solid #2F3145;
+        /* justify-content: center; */
+        padding: 10px 50px;
+        gap: 15px;
+    }
+
+    .footer .lt-tlk {
+        color: #000;
+        font-weight: 700;
+        width: 100%;
+        padding: 24px 50px;
+        font-size: 33px;
+        background: #DA241C;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    .text1 p {
+        line-height: unset;
+    }
+
+    .rvw-txt .card-text {
+        min-height: 265px;
+    }
+
+    .sh-txt-bnr h2 {
+        line-height: 44px;
+        font-size: 40px;
+    }
+
+    .banner .sh-txt-bnr p {
+        line-height: 28px;
+    }
+
+    .explore-text .text1 {
+        padding: 0 10px;
+    }
+
+    .px-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .padding-90 {
+        padding: 70px 0px;
+    }
+
+    .abt-text1 h2 {
+        font-size: 39px !important;
+    }
+
+
+    .explore-img .epl-img:after {
+        content: '';
+        width: 100%;
+        background: #DA241C;
+        left: 10px;
+        position: absolute;
+        z-index: 0;
+        top: 10px;
+        border-radius: 23px;
+        height: 77%;
+    }
+
+    .footer .foot-desc p {
+        font-size: 13px;
+        margin: 10px 0px;
+    }
+
+    .footer .addr-foot {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer .lt-tlk {
+        color: #000;
+        font-weight: 700;
+        width: 100%;
+        padding: 24px 30px;
+        font-size: 33px;
+        background: #DA241C;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .footer .busi-inq .nv-im {
+        /* justify-content: center; */
+        /* width: 100%; */
+        padding: 10px 30px;
+    }
+
+    .soc-icns {
+        border-top: 1px solid #2F3145;
+        /* justify-content: center; */
+        padding: 10px 30px;
+        gap: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .card-row {
+        flex-direction: column;
+    }
+
+    .soc-icns a {
+        padding: 0 !important;
+    }
+
+    .footer .busi-inq .nv-im {
+        padding: 10px 30px;
+    }
+
+    .card1-img {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .explore-text .text1 {
+        padding: 0;
+    }
+
+    .footer .busi-inq .nv-im {
+        justify-content: center;
+        /* padding: 10px 15px; */
+    }
+
+    .footer .lt-tlk {
+        color: #000;
+        font-weight: 700;
+        width: 100%;
+        /* padding: 24px 30px; */
+        font-size: 33px;
+        background: #DA241C;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .soc-icns {
+        border-top: 1px solid #2F3145;
+        justify-content: center;
+        /* padding: 10px 30px; */
+        /* gap: 10px; */
+    }
+
+    .text1 p {
+        line-height: unset;
+        margin-top: 10px !important;
+    }
+
+    .nav-rgt ul {
+        display: block !important;
+        padding-left: 0px;
+    }
+
+    .explore-img .epl-img:after {
+        height: 71%;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .explore-img .epl-img:after {
+        height: 80%;
+        width: 71%;
+    }
+
+    .footer .busi-inq .nv-im {
+        /* justify-content: center; */
+        /* width: 100%; */
+        padding: 10px 70px;
+    }
+
+    .team .social-icn i {
+        margin-right: 8px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .team .card {
+        margin: 10px !important;
+    }
+
+    /* .team .social-icn {
+        justify-content: center;
+    }  */
+    .count-him {
+        margin: 10px 0;
+    }
+
+    .footer .foot-desc p {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+
+    .footer .addr-foot {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .footer .lt-tlk h3 {
+        padding-top: 0px !important;
+    }
+
+    .slider-sec .testimonial-content {
+        min-height: 551px;
+    }
+
+    .rvw-txt .card-text {
+        min-height: 140px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .explore-img img {
+        max-width: none;
+    }
+
+    .footer .busi-inq .nv-im {
+        /* justify-content: center; */
+        /* width: 100%; */
+        padding: 10px 20px;
+    }
+
+    .slider-sec .testimonial-content {
+        min-height: 450px;
+    }
+
+    .explore-text .text1 {
+        margin: 0px 0;
+        margin-bottom: 30px;
+    }
+
+    .slider-sec .info h3 {
+        font-size: 30px !important;
+    }
+
+    .foot-bar h3 {
+        font-size: 16px;
+    }
+
+    .acdmy .play-button-wrapper #circle-play-b svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .acdmy .play-button-wrapper #circle-play-b {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .explore-img .epl-img:after {
+        display: none;
+    }
+
+    .explore-img {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explore-img .epl-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .explore-img .epl-img:after {
+        height: 80%;
+        width: 71% !important;
+    }
+
+    .abt-txt-bnr h2 {
+        /* font-size: 50px;
+        font-weight: 700; */
+        line-height: 50px;
+    }
+
+    .footer .soc-icns a {
+        margin: 15px;
+        padding: 0 !important;
+    }
+
+    .fox-text p {
+        font-size: 9px;
+        /* margin-top: 13px; */
+        line-height: 12px;
+        margin-top: 0px !important;
+        padding: 5px 0;
+    }
+}

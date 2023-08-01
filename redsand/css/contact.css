@@ -1,0 +1,51 @@
+.cont-bnr {
+    background-image: url('../images/banner/cont-bnr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.cont-bnr h1 {
+    color: #f2f2f2;
+}
+
+.img-chnge {
+    width: 130px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    /* margin: 50px; */
+}
+
+.inr-card:hover img.icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-chnge .icon-w {
+    display: none;
+    z-index: 99;
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.inr-card:hover .icon-w {
+    display: inline;
+}
+
+.inr-card:hover .ero-w {
+    display: inline;
+}
+
+.ero-w {
+    display: none;
+}
+.inr-card:hover .ero-b {
+    display: none;
+}
